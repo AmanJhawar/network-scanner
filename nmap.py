@@ -3,7 +3,7 @@
 
 # In[ ]:
 
-#!pip install netifaces
+
 from pip._internal import main as pipmain
 pipmain(['install', 'netifaces'])
 pipmain(['install', 'python-nmap'])
@@ -304,10 +304,4 @@ def main():
 if __name__ == '__main__':
     
     main()
-
-
-# In[ ]:
-
-
-
 
